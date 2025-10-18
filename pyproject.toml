@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infotest-py"
+version = "0.1.0"
+description = "Information Matrix (IM) test for linear regression with Cameron & Trivedi decomposition and optional White test."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{ name = "Hasraddin Guliyev", email = "hasradding@unec.edu.az" }]
+keywords = ["econometrics", "statistics", "regression", "heteroskedasticity", "diagnostics"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+  "numpy>=1.22",
+  "pandas>=1.5",
+  "scipy>=1.9",
+  "scikit-learn>=1.1"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7",
+  "pytest-cov>=4",
+  "ruff>=0.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/infotest-py"
+Repository = "https://github.com/yourname/infotest-py"
+Issues = "https://github.com/yourname/infotest-py/issues"
+
+[project.scripts]
+infotest-demo = "infotest.__main__:main"
