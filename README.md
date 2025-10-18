@@ -4,9 +4,7 @@
 
 ## Install
 ```bash
-pip install infotest-py
-# or from source:
-# python -m pip install .
+!pip install "git+https://github.com/guliyevh/infotest-py.git"
 ```
 
 ## Quick example
