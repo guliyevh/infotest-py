@@ -40,9 +40,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourname/infotest-py"
-Repository = "https://github.com/yourname/infotest-py"
-Issues = "https://github.com/yourname/infotest-py/issues"
+Homepage = "https://github.com/guliyevh/infotest-py"
+Repository = "https://github.com/guliyevh/infotest-py"
+Issues = "https://github.com/guliyevh/infotest-py/issues"
 
 [project.scripts]
 infotest-demo = "infotest.__main__:main"
